@@ -61,7 +61,7 @@ it('google test', function () {
         // cy.wait(500);
 
         //Click Save
-        cy.get('button[type=submit]').contains('Search').click({ force: true })
+        cy.get('button[type=submit]').contains('Search').should('be.visible').click({ force: true })
         cy.wait(300);
 
     })
