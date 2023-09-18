@@ -11,6 +11,7 @@
     "Role ":"ACCOUNT USER",
     "manualSlipNo":"01010101",
     "paidAmount":"1000",
-    "ManualNumber":"100"
+    "ManualNumber":"100",
+    "PaidIn":"Cheque"
   }
   
