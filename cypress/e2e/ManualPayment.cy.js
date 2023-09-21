@@ -23,7 +23,9 @@ it('Generate Manual Payment', function () {
   
       //Select Client Name
       cy.get('#rw_1_input').click().type('AJAY KUMAR', { timeout: 10000 }).contains('AJAY KUMAR SHRESTHA [AS136463]').type('{enter}').click({ force: true })
-  
+     
+
+
       //Select Branch
       cy.get("select").eq(3).type("Global IME Bank[7501010001244", { force: true })
       cy.wait(300);
